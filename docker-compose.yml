@@ -1,0 +1,14 @@
+version: "2"
+services:
+    mongo:
+        container_name: mongo
+        image: mongo
+        ports:
+            - '27017:27017'
+    web:
+        container_name: trackntrain
+        build: .
+        links:
+            - mongo
+        ports:
+            - '8000:8000'

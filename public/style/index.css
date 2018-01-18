@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(
+      			rgba(0, 0, 10, 0.7), 
+      			rgba(0, 0, 10, 0.7)
+    			),url('/images/index_background.jpg');
+    		width:100%;
+    		height:100%;
+    		background-attachment: fixed;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+}
+
+
+.slogans {
+	width : 100%;
+	height: 100%;
+	display: block;
+	position:fixed;
+}
+
+.top {
+	top: 35%;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	vertical-align: center;
+}
+#brand {
+	font-size: 300%;
+	color: white;
+}
+
+#slogan {
+	color:#E57373;
+}
+.bottom {
+	position:absolute;
+    bottom:50;
+	right: 0;
+	text-align: right;
+}
+#red {
+	color:#E57373;
+}
+#subtext {
+	margin-right: 50px;
+	color:white;
+}
